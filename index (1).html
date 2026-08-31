@@ -1,90 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>SEGURANÇA DA MULHER</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Formulario de cadastro</title>
 </head>
-
 <body>
+    <div class="container">
+        <div class="form image">
+            <img src="#" alt="#">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="tittle">
+                        <h1>CADASTRE-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">ENTRAR</a></button>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro nome</label>
+                        <input id="firstname" type="text" name="firstname"placeholder="Digite seu Primeiro nome" required>
+                    </div>
 
-    <header class="header">
-        <section>
-        <a href="#" class="logo">
-            <img src="./img/logo do site 2.png" alt="logo">
-         
-        </a>
+                     <div class="input-box">
+                        <label for="lastname">Sobre Nome</label>
+                        <input id="lastname" type="text" name="lastname"placeholder="Digite seu sobre nome" required>
+                    </div>
 
-            <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">Sobre</a>
-                <a href="#menu">Menu</a>    
-                <a href="#review">Avaliações</a>
-                <a href="#address">Endereços</a>   
-            </nav>
-            <div class="icons">
-                <img width="30" height="30" src="https://img.icons8.com/?size=100&id=7695&format=png&color=ffffff" alt="search--v1"/>
-                <img width="30" height="30" src="https://img.icons8.com/?size=100&id=59997&format=png&color=ffffff" alt="shopping-cart--v1"/>
+                     <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
 
-            </div>
-        </section>
-    </header>
-    <div class="home-container">
-        <section id="#home"> 
-            <div class="content">
-                <h3>ASSÉDIO NO TRANSPORTE NÃO É “BRINCADEIRA”</h3>
-                <p>
-    Mão boba, encarar de forma invasiva, encurralar, se esfregar, fazer 
-    comentários sexuais ou tocar sem consentimento é assédio. Ponto. 
-    Não importa a roupa, o horário, o local ou se o agressor diz que 
-    estava "brincando".
-</p>
+                     <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
 
-<h4>COMO COMBATER</h4>
-<p>
-    Afaste-se e peça ajuda a passageiros, motorista ou segurança. 
-    Se presenciar, intervenha com segurança e apoie a vítima. 
-    Registre informações sobre o agressor, local e horário, se for seguro. 
-    Denuncie às autoridades ou canais oficiais. 
-    <span class="destaque">Não culpe a vítima.</span>
-</p>
+                     <div class="input-box">
+                        <label for="password">Primeiro nome</label>
+                        <input id="password" type="text" name="password" placeholder="Digite sua senha" required>
+                    </div>
+                     <div class="input-box">
+                        <label for="password">Confirme sua senha</label>
+                        <input id="Confirmpassword" type="text" name="Confirmpassword" placeholder="Confirme sua senha" required>
+                    </div>
+                </div>
 
-<p>
-    A prioridade é garantir a segurança e retirar a vítima daquela situação. 
-    Também é importante não culpar, questionar ou constranger a vítima. 
-    Frases como "por que você não saiu?", "por que estava vestida assim?" 
-    ou "por que não reagiu?" apenas aumentam a violência. 
-    <span class="destaque">A culpa é de quem assedia.</span>
-</p>
-</p>
-                <a href="#" class="BTN">Pegue o seu agora</a>
+                <div class="gender-group">
+                    <div class="gender-input">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Feminino</label>
+                    </div>
 
-            </div>
+                    <div class="gender-group">
+                    <div class="gender-input">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>,
 
-        
-        </section>
+                    <div class="gender-group">
+                    <div class="gender-input">
+                        <input type="radio" id="others" name="gender">
+                        <label for="others">Outros</label>
+                    </div>
 
-
+                    <div class="gender-group">
+                    <div class="gender-input">
+                        <input type="radio" id="none" name="gender">
+                        <label for="none">Prefeiro não dizer</label>
+                    </div>
+                </div>
+                <div class="Continue-button">
+                    <button><a href="#"></a>Continuar</button>
+                </div>
+            </form>
+        </div>
     </div>
-    <section class="about" id="about">
-        <h2 class="tittle">Sobre <span>Nós</span></h2>
-        <div class="row"></div>
-            <div class="container-image">
-                <img src="" alt="sobre-nos">
-            </div>
-            <div class="content">
-                <h3>Oque Faz Nosso Cafe ESPECIAL</h3>
-                <p>Às vezes, os maiores caminhos começam com pequenas decisões que parecem insignificantes, mas que, quando tomadam</p>
-                <p>Às vezes, os maiores caminhos começam com pequenas decisões que parecem insignificantes, mas que, quando tomadam</p>
-                <a href="#" class="BTN">Saiba mais</a>
-
-            </div>
-
-
-    </section>
 </body>
 </html>
