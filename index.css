@@ -1,0 +1,154 @@
+:root {
+    --main-color: #814192;
+    --black: #13131a;
+    --bg: #010103;
+    --border: 1px solid rgba(255, 255, 255, 0.3);
+
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    background-color: #010103;
+    padding: 0.1px 0.1px;
+}
+
+.logo img { 
+  position: absolute;
+  top: -3px; 
+  left: 50;
+  width: 10rem; 
+  height: 10rem;
+
+
+  
+  
+
+}
+
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.BTN {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block ;
+}
+
+   .home-container {
+    background: 
+    linear-gradient(180deg, rgba(56, 55, 55, 0.489) 50%, rgba(0,0,0,0) 60%,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 30%, rgba(0,0,0,0.1) 80%),
+    url("./img/Instagram Post Minimalista Agosto Lilás Roxo e Branco (1).png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    width: 100%;
+    min-height: 190vh;      /* volta pro tamanho da tela, nada de 170vh */
+    display: flex;
+    align-items: center;    /* centraliza o texto verticalmente, alinhado com a imagem */
+    position: relative;
+}
+
+.content {
+    
+    max-width: 800px;
+    padding: 1rem 15%;
+    margin-top: -20rem;   /* sobe o texto — ajusta esse valor */
+    margin-left: -50rem;   /* move pra esquerda — ajusta esse valor */
+}
+
+
+
+.content h3 {
+    max-width: 60rem;
+}
+
+.content h3 {
+    color: #fff;
+    font-size: 6rem;
+}
+
+.content p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 250;
+    line-height: 1.8;
+    padding: 1rem 0;
+
+}
+
+.destaque {
+    font-weight: bold;
+    color: #fff; /* usa o roxo que você já tem definido no :root */
+}
+
+.tittle {
+    font-size: 4rem;
+    color: var(--main-color);
+    text-align: center;
+    margin-top: -10rem;
+}
+
+.tittle span {
+    color: #fff;
+}
+
